@@ -5,7 +5,7 @@ from discord.ext import commands
 import requests
 import json
 
-TOKEN = "MTM3Mzk3NTM4OTg0NzgxODM4Mw.GECX6H.cNz02s2REomKnvpOX6HgDxk3yUrMbmKIooZT8g"
+TOKEN = "MTM3Mzk3NTM4OTg0NzgxODM4Mw.GtgGFk.im6xcM_cYjrBfhZWyZTbTVmS3YlFCMwiUgfvV4"
 GUILD_ID = 1244885780661272617  # Replace with your Discord server ID
 
 intents = discord.Intents.default()
