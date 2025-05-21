@@ -5,14 +5,14 @@ from discord.ext import commands
 import requests
 import json
 
-TOKEN = "YOUR_BOT_TOKEN"
-GUILD_ID = YOUR_GUILD_ID  # Replace with your Discord server ID
+TOKEN = "MTM3Mzk3NTM4OTg0NzgxODM4Mw.GECX6H.cNz02s2REomKnvpOX6HgDxk3yUrMbmKIooZT8g"
+GUILD_ID = 1244885780661272617  # Replace with your Discord server ID
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
 tree = bot.tree
 
-admin_ids = [1234567890]  # Thay bằng ID admin thật
+admin_ids = [1350875691666640956]  # Thay bằng ID admin thật
 
 def is_admin(user):
     return user.id in admin_ids
